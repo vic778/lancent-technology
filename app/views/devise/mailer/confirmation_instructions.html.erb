@@ -1,0 +1,13 @@
+<div style="width: 80%;">
+   <div style="text-align:center">
+     <%= image_tag "https://mail.google.com/mail/u/1?ui=2&ik=2be5e5630e&attid=0.1&permmsgid=msg-f:1745646402215723253&th=1839c8276b81c0f5&view=fimg&fur=ip&sz=s0-l75-ft&attbid=ANGjdJ81F3efFra-94luE_D6KFZPCx32u1J1BXvmT2S0El9AjZVoQ6XmTPJWxyUaL2t0mNmIo0ikBsm3-BNrZF2CewPQIodMLoOmwHQxpUn-RQvSiF53nHhhTJ0n-DQ&disp=emb&realattid=ii_kq8w3jgq0" , :style => "width: 100px; height: auto"%>
+  </div>
+   <div style="width: 100%; text-align:center; color:#000000; font-family:Trebuchet MS, sans-serif;">
+    <h2>Welcome To Perx Technologies</h2>
+  </div>
+  <div style="width: 100%; text-align:center;">
+    <button style="padding: 6px;font-family:Trebuchet MS, sans-serif; font-size: 14px; background: #139137; border: unset; border-radius:6px; margin-top:8px; cursor:pointer;">
+      <%= link_to 'Confirm Email', confirmation_url(@resource, confirmation_token: @token), :style => "text-decoration: none; color: #fff !important;" %>
+    </button>
+  </div>
+</div>
